@@ -20,7 +20,6 @@ workflows:
           # If you are using yarn, change the line below from "npm" to "yarn"
 
           steps:
-          - checkout
           - run: npm install
           - run: npm test
           pkg-manager: npm
